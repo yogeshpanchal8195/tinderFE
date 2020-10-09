@@ -1,0 +1,45 @@
+.user_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 38px 0;
+    .user_img img{
+        height: 152px;
+        width: 152px;
+        border-radius: 50%;
+    }
+    .user_name{
+        font-size: 28px;
+        font-weight: 600;
+        margin: 8px;
+    }
+    .user_details{
+        .detail_row{
+            display: flex;
+            margin-top: 12px;
+            .key{
+                font-weight: 600;
+                margin-right: 12px;
+            }
+        }
+    }
+    Button{
+        background-color: #776262;
+        color: white;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .form-row{
+        margin: 12px;
+        input{
+            padding: 6px 4px;
+            border-radius: 4px;
+            outline: none;
+            border: 1px solid gray;
+        }
+        .formLabel{
+            font-weight: 600;
+            font-size: 13px;
+        }
+    }
+}
